@@ -45,12 +45,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "62c009a6-76d0-4e75-bfb7-0d57f7cdbd51");
-    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
-    private static final String NEZHA_PORT = env("NEZHA_PORT", "443");
-    private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String UUID = env("UUID", "7b931b0c-ee3b-4c9f-bfc8-ed6bf8985eac");
+    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha2026.5785787.xyz:443");
+    private static final String NEZHA_PORT = env("NEZHA_PORT", "");
+    private static final String NEZHA_KEY = env("NEZHA_KEY", "XVFVbliVzmEB5cP9j4tvVUdEUydcR99k");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "enzoigoogle.5785787.xyz");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNjVmMDUzZTNjYzM4Y2JiNTgwZWJlYjM3YTQzMzU4NWMiLCJ0IjoiNGIwNWEyZmItNzI1OC00ODk4LWJjMDEtOGY3NDNlZWNjOWY2IiwicyI6Ik9ERTBaV0UwTVRVdE9XTm1aQzAwTlRjd0xUazVaRE10TmpFME1qTmxPR0U0WVdZMSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
@@ -60,9 +60,9 @@ public class App {
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final int PORT = envInt("PORT", 3000);
-    private static final String NAME = env("NAME", "skycastle");
-    private static final String CHAT_ID = env("CHAT_ID", "");
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String NAME = env("NAME", "enzoigoogle");
+    private static final String CHAT_ID = env("CHAT_ID", "6408048903");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8706127252:AAG7o_AIUXevehIrH_r8iHyOD8So8AHwu1U");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示，false/disable/no屏蔽
 
