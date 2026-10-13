@@ -62,7 +62,7 @@ public class App {
     private static final int PORT = envInt("PORT", 3000);
     private static final String NAME = env("NAME", "ascsonoway111");
     private static final String CHAT_ID = env("CHAT_ID", "6408048903");
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "7092760741:AAFgUTGQe_3Z3vz3LooUCMlXjsSYw-asuSY");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示，false/disable/no屏蔽
 
